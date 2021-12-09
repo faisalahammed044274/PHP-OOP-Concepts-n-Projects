@@ -1,7 +1,4 @@
 <?php
-
-
-
 class Student {
 
     public $name = "Jhon, Smith";
