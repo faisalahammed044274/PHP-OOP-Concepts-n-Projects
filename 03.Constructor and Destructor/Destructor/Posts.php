@@ -5,7 +5,7 @@ class Posts{
     function __construct(){
         
         //Initialize the value
-        echo "This is Constructor" . PHP_EOL . "<br> ";
+        echo "This is Constructor" . PHP_EOL . "<br>";
     }
 
     function __destruct(){

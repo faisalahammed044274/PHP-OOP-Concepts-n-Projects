@@ -7,13 +7,26 @@
     <title>Destructor</title>
 </head>
 <body>
-    <ul style="list-style: none; background-color:honeydew; margin:20px; padding: 50px; border:3px solid green">
-        <li><h3>What is Destructor ?</h3></li>  <br/>
-        <li>01. Destructor are also magic methods that gets loaded automatically.</li><br/>
-        <li>02. Purpose of Destructor is to do cleanup activities.
+    <h3>What is Destructor : </h3>
+    <ol style="background-color:honeydew; margin:20px; padding: 50px; border:3px solid green">
+        <li> Destructor are also magic methods that gets loaded automatically.</li><br/>
+        <li> Purpose of Destructor is to do cleanup activities.
             Example : closing Database connection or saving file.
         </li><br/>
-        <li>03. You can choose to define Destructor method or ignore it as it is optional to define.</li><br/>
-    </ul>
+        <li> You can choose to define Destructor method or ignore it as it is optional to define.</li><br/>
+    </ol>
+
+    <h3>Purpose of Destruct : </h3>
+    <ol style="background-color:honeydew; margin:20px; padding: 50px; border:3px solid green">
+        <li>Perform the cleanup activites.</li>
+        <li>Close the Database Connection.</li>
+        <li>Close the File Connection.</li>
+        <li>Save the Log File.</li>
+        <li>Write Activity Logs - End Time.</li>
+        <li>Free up the Resources.</li>
+        <li>Save the properties into a File.</li>
+        <li>Save the Cache.</li>
+        <li>Serialize the Objects.</li>
+    </ol>
 </body>
 </html>
