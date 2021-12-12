@@ -7,7 +7,6 @@ class ChainMethods{
         return $this;
     }
 
-
     function Method2(){
         echo "Hello from method 2" .PHP_EOL . "<br>";
         return $this;
