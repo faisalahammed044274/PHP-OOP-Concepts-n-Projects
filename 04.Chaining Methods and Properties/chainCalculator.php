@@ -43,4 +43,9 @@ class Calculator
     }
 }
 
-echo "<h1>Not Completed</h1>";
+$myCal = new Calculator(50, 20);
+$chain = $myCal->Add() . PHP_EOL;
+$chain = $myCal->Subtract() . PHP_EOL;
+$chain =$myCal->Multiply() . PHP_EOL;
+$chain =$myCal->Division() . PHP_EOL;
+echo $chain;

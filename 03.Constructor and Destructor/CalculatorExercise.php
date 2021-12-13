@@ -49,3 +49,5 @@ echo "Calculator's Multiplication : " . $myCalculation->Multiplication() . PHP_E
 echo "Calculator's Division : " . $myCalculation->Division(). PHP_EOL ;
 echo "Calculator's Modulus : " . $myCalculation->Modulus(). PHP_EOL;
 echo "Calculator's Exponentiation : " . $myCalculation->Exponentiation(). PHP_EOL;
+
+//COnfused in this section to execute multiple.
