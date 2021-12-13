@@ -4,24 +4,24 @@ class ChainMethods{
 
 
     function Method1(){
-        echo "Hello from method 1" .PHP_EOL . "<br>";
+        echo "Hello from method 1" .PHP_EOL;
         return $this;
     }
 
     function Method2(){
-        echo "Hello from method 2" .PHP_EOL . "<br>";
+        echo "Hello from method 2" .PHP_EOL;
         return $this;
     }
     function Method3(){
-        echo "Hello from method 3" .PHP_EOL . "<br>";
+        echo "Hello from method 3" .PHP_EOL;
         return $this;
     }
     function Method4(){
-        echo "Hello from method 4 " .PHP_EOL . "<br>";
+        echo "Hello from method 4 " .PHP_EOL;
         return $this;
     }
     function Method5(){
-        echo "Hello from method 5 " .PHP_EOL . "<br>";
+        echo "Hello from method 5 " .PHP_EOL;
         
     }
 }       
