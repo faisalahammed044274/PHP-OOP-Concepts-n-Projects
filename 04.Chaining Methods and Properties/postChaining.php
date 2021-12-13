@@ -44,12 +44,12 @@ class Posts
 $post1 = new Posts("This is a post Content 1");
 //Print and Get the $content property from the $post1 at the same time.
 $content = $post1->printContent1()->content;
-$post2 = new Posts("This is a post Content 2");
-$content = $post2->printContent2()->content;
-$post3 = new Posts("This is a post Content 3");
-$content = $post3->printContent3()->content;
-$post4 = new Posts("This is a post Content 4");
-$content = $post4->printContent4()->content;
-echo $content;
+// $post2 = new Posts("This is a post Content 2");
+// $content = $post2->printContent2()->content;
+// $post3 = new Posts("This is a post Content 3");
+// $content = $post3->printContent3()->content;
+// $post4 = new Posts("This is a post Content 4");
+// $content = $post4->printContent4()->content;
+// echo $content;
 
 
