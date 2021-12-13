@@ -2,6 +2,7 @@
 
 class ChainMethods{
 
+
     function Method1(){
         echo "Hello from method 1" .PHP_EOL . "<br>";
         return $this;
@@ -24,6 +25,7 @@ class ChainMethods{
         
     }
 }       
+
 
 $cm = new ChainMethods();
 $cm->Method1()->Method2()->Method3()->Method4()->Method5();
