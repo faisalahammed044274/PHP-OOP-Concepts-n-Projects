@@ -16,6 +16,10 @@ class Calculator
     {
         echo "This is Destruct";
     }
+    
+    public function getInfo(){
+
+    }
 
     public function Add()
     {
@@ -25,8 +29,8 @@ class Calculator
     public function Subtract()
     {
         return $this->firstNumber - $this->secondNumber;
-    }
 
+    }
     public function Multiply()
     {
         return $this->firstNumber * $this->secondNumber;
@@ -36,16 +40,14 @@ class Calculator
     {
         return $this->firstNumber / $this->secondNumber;
     }
+
     
-    function getNum(){
-        echo $this->chain .PHP_EOL;
-        return $this;
-    }
 }
 
-$myCal = new Calculator(50, 20);
-$chain = $myCal->Add() . PHP_EOL;
-$chain = $myCal->Subtract() . PHP_EOL;
-$chain =$myCal->Multiply() . PHP_EOL;
-$chain =$myCal->Division() . PHP_EOL;
-echo $chain;
+$myCal = new Calculator(58,9);
+echo "addition : "  . $myCal->Add(8,8) . PHP_EOL;
+echo "Subtraction : "  . $myCal->Subtract()  . PHP_EOL;
+echo "Multiplication : "  . $myCal->Multiply()  . PHP_EOL;
+echo "Division : "  . $myCal->Division()  . PHP_EOL;
+
+//Need a mentor to resolve it
