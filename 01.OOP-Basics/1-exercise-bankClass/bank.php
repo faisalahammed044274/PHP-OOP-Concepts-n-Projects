@@ -24,15 +24,15 @@ class Bank{
 
     function deductAmount($amt){
         
-        if($this->balance <= 0){
-            print_r("no balance in the account." . PHP_EOL) ;
-            return;
-        }
+        // if($this->balance <= 0){
+        //     print_r("no balance in the account." . PHP_EOL) ;
+        //     return;
+        // }
 
-        if($this->balance <= $amt){
-            print_r("Requested Amount is greater than Balance." . PHP_EOL);
-            return;
-        }
+        // if($this->balance <= $amt){
+        //     print_r("Requested Amount is greater than Balance." . PHP_EOL);
+        //     return;
+        // }
 
         $this->balance = $this->balance - $amt;
 
@@ -45,7 +45,7 @@ class Bank{
     }
 }
 
-$bank1 = new Bank();
+$bank1 = new Bank(500);
 $bank1->accno = 101;
 $bank1->name = "Faisal Ahammed";
 $bank1->balance = 500;
@@ -57,5 +57,5 @@ $bank1->deductAmount(100);
 $bank1->checkbalance();
 $bank1->deductAmount(100);
 $bank1->checkbalance();
-$bank1->deductAmount(2000);
+$bank1->deductAmount(5200);
 $bank1->checkBalance();
