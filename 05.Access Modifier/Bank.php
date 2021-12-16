@@ -29,15 +29,15 @@ class Bank
 
     public function deductAmount($amt)
     {
-        // if ($this->balance < 0) {
-        //     echo "No Balance in the Amount." . PHP_EOL;
-        //     return;
-        // }
+        if ($this->balance < 0) {
+            echo "No Balance in the Amount." . PHP_EOL;
+            return;
+        }
 
-        // if ($this->balance < $amt) {
-        //     echo "Requested amount is greater then Balance." . PHP_EOL;
-        //     return;
-        // }
+        if ($this->balance < $amt) {
+            echo "Requested amount is greater then Balance." . PHP_EOL;
+            return;
+        }
 
         $this->balance = $this->balance - $amt;
     }
