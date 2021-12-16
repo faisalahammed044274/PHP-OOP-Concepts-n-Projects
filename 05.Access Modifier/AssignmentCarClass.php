@@ -9,34 +9,27 @@ class Car
 {
     private $speed;
 
-
     public function increaseSpeed($speedLimit)
     {
         $this->speed = $this->speed + $speedLimit;
-        if($speedLimit >= 60){
+        if ($speedLimit >= 60) {
             echo "Speed Increased and speed is $speedLimit" . PHP_EOL;
         }
     }
 
-    public function decreaseSpeed($speedLimit){
+    public function decreaseSpeed($speedLimit)
+    {
         $this->speed = $this->speed - $speedLimit;
-        if($speedLimit <= 60){
+        if ($speedLimit <= 60) {
             echo "Speed Decreased and speed is $speedLimit" . PHP_EOL;
         }
     }
-    /**
-     * Get the value of speed
-     */
+
     public function getSpeed()
     {
         return $this->speed;
     }
 
-    /**
-     * Set the value of speed
-     *
-     * @return  self
-     */
     public function setSpeed($speed)
     {
         $this->speed = $speed;
@@ -50,5 +43,3 @@ $myCar1->setSpeed(77);
 echo "Starting Speed : " . $myCar1->getSpeed() . PHP_EOL;
 $myCar1->increaseSpeed(96);
 $myCar1->decreaseSpeed(45);
-
-
